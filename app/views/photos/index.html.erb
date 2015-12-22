@@ -1,5 +1,5 @@
-<div class='photo-grid'>
+<div class='flex-container'>
   <% @photos.each do |photo| %>
-    <%= image_tag(photo, class: 'img-circle') %>
+    <%= image_tag(photo, class: 'flex-item img-circle') %>
   <% end %>
 </div>
