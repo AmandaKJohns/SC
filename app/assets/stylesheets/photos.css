@@ -5,19 +5,10 @@
   align-items: center;
 }
 
-/*p:hover { 
-    background-color: yellow;
+.large-js {
+  -ms-transform: scale(1.1); /* IE 9 */
+  -webkit-transform: scale(1.1); /* Chrome, Safari, Opera */
+  transform: scale(1.1);
 }
-*/
 
-/*.flex-item {
-  flex-grow: 1;
-  flex-basis: 200px;
-  shorthand:
-  flex: 1 200px;
-  takes up more space in the row
-}*/
 
-/*.logo {
-  margin-right: auto;
-}*/

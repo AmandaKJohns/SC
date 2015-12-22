@@ -1,5 +1,1 @@
-<div class='flex-container'>
-  <% @photos.each do |photo| %>
-    <p class='img-js'><%= image_tag(photo, class: 'flex-item img-circle') %></p>
-  <% end %>
-</div>
+<%= render 'photos/photos' %>

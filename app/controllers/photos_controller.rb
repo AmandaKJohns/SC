@@ -18,7 +18,6 @@ class PhotosController < ApplicationController
     data = Adapters::InstagramClient.new
     @photos = data.find_photos('soulfounders', 'thumbnail')
   end
-  # 'standard_resolution' 'low_resolution'
 
   def instructors
     data = Adapters::InstagramClient.new

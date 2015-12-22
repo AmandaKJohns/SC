@@ -15,8 +15,6 @@ module Adapters
       data['items'].map do | photo_data |
         photo_data['images'][size]['url']
       end
-
-      # x['caption']['text']
     end
 
   end
