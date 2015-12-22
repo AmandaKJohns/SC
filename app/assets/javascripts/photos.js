@@ -11,8 +11,10 @@ $(document).ready(function(){
     }, 'fast');
   })
 
-  $('.img-js').on('click', function(){
-    // $(this).toggle('slow', function(){
-    // });
-  })
+  $('.img-js').draggable();
+
+  // $('.img-js').on('click', function(){
+  //   $(this).toggle('slow', function(){
+  //   });
+  // })
 })
