@@ -9,6 +9,10 @@
   font-size: 125%;
 }
 
+.main-footer {
+  font-family: 'Karla', sans-serif;
+}
+
 @media (min-width: 769px){
   
   .main-header, 
