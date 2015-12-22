@@ -1,14 +1,19 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Sc</title>
+  <title>#SoulCycle</title>
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
   <%= csrf_meta_tags %>
 </head>
 <body>
+  <%= render 'layouts/nav' %>
+  <%= yield %>
 
-<%= yield %>
-
+  <footer class='main-footer'>
+    <div class='footer-inner'>
+      <span>Amanda Johns</span>
+    </div>
+  </footer>
 </body>
 </html>
