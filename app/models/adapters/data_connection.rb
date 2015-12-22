@@ -1,5 +1,4 @@
 require 'json'
-require 'rest-client'
 
 module Adapters
   class DataConnection   
