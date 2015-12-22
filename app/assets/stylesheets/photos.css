@@ -5,6 +5,11 @@
   align-items: center;
 }
 
+/*p:hover { 
+    background-color: yellow;
+}
+*/
+
 /*.flex-item {
   flex-grow: 1;
   flex-basis: 200px;
