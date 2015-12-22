@@ -1,4 +1,4 @@
-$(document).ready(function(){
+$(document).on('page:change', function(){
   
   $('.img-js').on('mouseenter', function(){
     $(this).animate({
